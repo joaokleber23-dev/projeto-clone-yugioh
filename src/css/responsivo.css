@@ -1,15 +1,17 @@
-@media(max-width:768px) {
+/* Ajustes para telas menores que 768px */
+@media (max-width: 768px) {
     body {
-    background-position: center;
-    padding: 0 15px;
-}
+        background-position: center;
+        padding: 0 15px;
+    }
 
     .slider {
         gap: 10px;
     }
 }
 
-@media(max-width:496px) {
+/* Ajustes para telas menores que 496px */
+@media (max-width: 496px) {
     .lista-personagens {
         width: 250px;
     }
@@ -36,9 +38,11 @@
     }
 }
 
-@media(max-width:375px) {
+/* Ajustes para telas menores que 375px */
+@media (max-width: 375px) {
     body {
-        justify-content: start;
+        display: flex;  /* Caso esteja usando flexbox */
+        justify-content: flex-start;
         padding-top: 10px;
         gap: 10px;
     }
