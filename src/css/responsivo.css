@@ -1,4 +1,4 @@
-/* Ajustes para telas menores que 768px */
+
 @media (max-width: 768px) {
     body {
         background-position: center;
@@ -10,7 +10,6 @@
     }
 }
 
-/* Ajustes para telas menores que 496px */
 @media (max-width: 496px) {
     .lista-personagens {
         width: 250px;
@@ -38,10 +37,9 @@
     }
 }
 
-/* Ajustes para telas menores que 375px */
 @media (max-width: 375px) {
     body {
-        display: flex;  /* Caso esteja usando flexbox */
+        display: flex;  
         justify-content: flex-start;
         padding-top: 10px;
         gap: 10px;
